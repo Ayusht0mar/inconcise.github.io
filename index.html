@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In concise | Financial stories that matter</title>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/svg">
+
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <figure class="navbar">
+        <img class="navbar-img" src="./assets/images/logo.svg" alt="">
+        <h1 class="navbar-title">IN CONCISE</h1>
+    </figure>
+
+    <div class="hero-area">
+        <h1 class="hero-title">In concise Daily</h1>
+        <h2 class="hero-sub-title">Daily finance news that matters</h2>
+        <iframe src="https://embeds.beehiiv.com/d41874e2-83bb-4a7f-9e5c-03fd6fc303ad?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+    </div>
+
+    <div class="newsletter-posts">
+
+        <header>
+            <h4 class="newsletter-title">In concise Daily</h2>
+            <span class="line-header"></span>
+            <button class="view-all-btn">View all</button>
+        </header>
+        
+        <div id="categoryButtons" >
+          <span class="category-btn" onclick="filterItems('All')">All</span>
+          <span class="category-btn" onclick="filterItems('Business')">Business</span>
+          <span class="category-btn" onclick="filterItems('Banking')">Banking</span>
+          <span class="category-btn" onclick="filterItems('Economy')">Economy</span>
+          <span class="category-btn" onclick="filterItems('Global')">Global</span>
+          <span class="category-btn" onclick="filterItems('Policy')">Policy</span>  
+        </div>
+
+        <ul id="itemList" class="card-container">
+
+            <li data-category="Business" class="card">
+              <a href="./Posts/Disney-s-tales-to-continue-in-India/">
+                <img src="./Posts/What-went-wrong-with-Dunzo/What-went-wrong-with-Dunzo.png" alt="Interest rates to rise on unsecured loans and NBFCs?" class="card-image">
+                <div class="card-content">
+                  <h5 class="card-tag">Business | 24 November 2023</h5>
+                  <h3 class="card-title">What went wrong with Dunzo?</h3>
+                  <h4 class="card-description">Dunzo has been the talk of the town for a while now, but not for good reasons. Explaining why Dunzo is facing all these problem.</h4>
+                </div>
+            </a>
+            </li>
+        
+            <li data-category="Business" class="card">
+              <a href="./Posts/What-went-wrong-with-Dunzo - Copy/sam-altman-goes-to-microsoft.png">
+                <img src="./Posts/What-went-wrong-with-Dunzo - Copy/sam-altman-goes-to-microsoft.png" alt="Interest rates to rise on unsecured loans and NBFCs?" class="card-image">
+                <div class="card-content">
+                    <h5 class="card-tag">Global | 23 November 2023</h5>
+                    <h3 class="card-title">Sam Altman goes to Microsoft</h3>
+                    <h4 class="card-description">Sam Altman to join Microsoft after being fired as the CEO of OpenAI.</h4>
+                  </div>  
+            </a>
+            </li>
+        
+            <li data-category="Global" class="card">
+              <a href="./Posts/jio-to-revolutionize-the-laptop-industry-too/">
+                <img src="./Posts/how-much-money-this-cricket-world-cup-make/how-much-money-this-cricket-world-cup-make.png" alt="Interest rates to rise on unsecured loans and NBFCs?" class="card-image">
+                <div class="card-content">
+                    <h5 class="card-tag">Business | 22 November 2023</h5>
+                    <h3 class="card-title">How much money this Cricket World Cup make?</h3>
+                    <h4 class="card-description">The Indian team wasn't able to win the World Cup but BCCI made a lot of money by hosting the World Cup.</h4>
+                </div>
+            </a>
+            </li>
+        
+            <li data-category="Banking" class="card">
+              <a href="./Posts/prime-video-the-new-player-in-sports-content-streaming-game/">
+                <img src="./Posts/prime-video-the-new-player-in-sports-content-streaming-game/prime-video-the-new-player-in-sports-content-streaming-game.png" alt="Interest rates to rise on unsecured loans and NBFCs?" class="card-image">
+                <div class="card-content">
+                    <h5 class="card-tag">Business | 27 November 2023</h5>
+                    <h3 class="card-title">Interest rates to rise on unsecured loans and NBFCs?</h3>
+                    <h4 class="card-description">The Reserve Bank of India (RBI) increased the risk weight on consumer loans advanced by commercial banks and non-banking finance companies by 25 percentage points.</h4>
+                </div>
+            </a>
+            </li>
+            
+            <li data-category="Policy" class="card">
+                <a href="./Posts/What-went-wrong-with-Dunzo/">
+                  <img src="./Posts/What-went-wrong-with-Dunzo/What-went-wrong-with-Dunzo.png" alt="Interest rates to rise on unsecured loans and NBFCs?" class="card-image">
+                  <div class="card-content">
+                    <h5 class="card-tag">Business | 27 November 2023</h5>
+                    <h3 class="card-title">Interest rates to rise on unsecured loans and NBFCs?</h3>
+                    <h4 class="card-description">The Reserve Bank of India (RBI) increased the risk weight on consumer loans advanced by commercial banks and non-banking finance companies by 25 percentage points.</h4>
+                  </div>
+              </a>
+            </li>
+
+            <li data-category="Economy" class="card">
+                <a href="/Banking/interest-rates-to-rise-on-unsecured-loans-and-nbfcs/">
+                  <img src="/assets/images/how-much-money-this-cricket-world-cup-make.png" alt="Interest rates to rise on unsecured loans and NBFCs?" class="card-image">
+                  <div class="card-content">
+                    <h5 class="card-tag">Business | 27 November 2023</h5>
+                    <h3 class="card-title">Interest rates to rise on unsecured loans and NBFCs?</h3>
+                    <h4 class="card-description">The Reserve Bank of India (RBI) increased the risk weight on consumer loans advanced by commercial banks and non-banking finance companies by 25 percentage points.</h4>
+                  </div>
+              </a>
+            </li>
+        
+        </ul>
+
+    </div>
+
+
+    <footer class="footer">
+
+        <ul class="footer-column">
+            <li class="footer-row">
+                <figure class="footer-header">
+                    <img class="footer-img" src="./assets/images/logo.svg" alt="">
+                    <h1 class="footer-title">IN CONCISE</h1>
+                </figure>
+                <p class="footer-ctg-btn">Financial stories that matter</p>
+            </li>
+            <li class="footer-row">
+                <ul>
+                    <li class="footer-column-title">Browse</li>
+                    <li class="footer-ctg-btn"><a href="./Tag/Business/">Business</a></li>
+                    <li class="footer-ctg-btn"><a href="./Tag/Banking/">Banking</a></li>
+                    <li class="footer-ctg-btn"><a href="./Tag/Economy/">Economy</a></li>
+                    <li class="footer-ctg-btn"><a href="./Tag/Global/">Global</a></li>
+                    <li class="footer-ctg-btn"><a href="./Tag/Policy/">Policy</a></li>
+                </ul>
+            </li>
+
+            <li class="footer-row">
+                <ul>
+                    <li class="footer-column-title">Contact</li>
+                    <li class="footer-ctg-btn"><a href="mailto: contact@inconcise.in">contact@inconcise.in</a></li>
+                </ul>
+            </li>
+
+            <li class="footer-row">
+                <ul>
+                    <li class="footer-column-title">Follow</li>
+                    <li class="footer-ctg-btn">
+                        <a href="" class="footer-icon">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <hr class="footer-line">
+
+        <h5 class="footer-msg">All rights reserved <br> Made with ❤️</h5>
+    </footer>
+
+    <!--Custom JS-->
+    <script src="/assets/js/script.js"></script>
+
+    <!--Ion-icon-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
